@@ -46,8 +46,13 @@ class FieldElement:
         return self.__class__(num, self.prime)
 
     def __pow__(self, exponent):
-        num = (self.num ** exponent) % self.prime
-        return self.__class__(num, self.prime)
+        # num = (self.num ** exponent) % self.prime
+        # return self.__class__(num, self.prime)
+        n = exponent
+        while n < 0:
+            n += self.prime - 1
+            num = pow(self.num, n, self.prime)
+            return self.__class__(num, self.prime)
 
     def __truediv__(self, other):
         if self.prime != other.prime:
@@ -57,7 +62,7 @@ class FieldElement:
         # this means:
         # 1/n == pow(n, p-2, p)
         # we return an element of the same class
-        num = self.num * pow(other.num, self.prime - 2, self.prime) % self.prime 
+        num = self.num * pow(other.num, self.prime - 2, self.prime) % self.prime
         return self.__class__(num, self.prime)
 
 
