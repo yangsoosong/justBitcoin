@@ -15,6 +15,9 @@ class Point:
     def __ne__(self, other):
         return not (self == other)
 
+    def __add__(self, other):
+        
+
 p1 = Point(-1, -1, 5, 7)
 p2 = Point(-1, 1, 5, 8)
 p1.__ne__(p2)
