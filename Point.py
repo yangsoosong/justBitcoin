@@ -16,7 +16,8 @@ class Point:
         return not (self == other)
 
     def __add__(self, other):
-        
+        if self.a != other.a or self.b != other.b
+
 
 p1 = Point(-1, -1, 5, 7)
 p2 = Point(-1, 1, 5, 8)
