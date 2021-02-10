@@ -56,7 +56,7 @@ class Point:
             y = s * (self.x - x) - self.y
             return self.__class__(x, y, self.a, self.b)
 
-            # Last cas: self == other and the y coordinate is 0
+            # Last case: self == other and the y coordinate is 0
         if self == other and self.y == 0 * self.x:
             return self.__class__(None, None, self.a, self.b)
 
