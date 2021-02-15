@@ -8,3 +8,6 @@ Feb 6th
 Distirbute the server separately for the weatherdrobe web and bitcoin, had some
 lecture going on with the deploying node on the local machine, it won't have any
 security issues.
+
+Feb 14th
+OpenSSL or oter alternatves for server?
