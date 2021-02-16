@@ -15,8 +15,8 @@ Simple implementation of bitcoin
    $ pip install virtulaenv
 7. Install the requirements:
    Linux/macOS
-         $ virtualenv -p python3 .vent
+         $ virtualenv -p python3 .venv
          $ . .venv/bin/activate
-         (.venv) $ pip install -r requriments.txt
+         (.venv) $ pip install -r requirements.txt
 8.Run Jupyter Notebook:
    (.venv) $ jupyter notebook
