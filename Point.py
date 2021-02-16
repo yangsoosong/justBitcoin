@@ -8,6 +8,8 @@ class Point:
         self.b = b;
         self.x = x;
         self.y = y;
+        if self.x is None and self.y is None:
+            return
         if self.y**2 != self.x**3 + a * x + b:
             raise ValueError('({}, {}) is not on the curve'.format(x,y))
 
