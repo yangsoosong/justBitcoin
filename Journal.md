@@ -11,3 +11,6 @@ security issues.
 
 Feb 14th
 OpenSSL or oter alternatves for server?
+
+Feb 16th
+Modify the README file to inlcude the setup instruction for the project
