@@ -62,6 +62,14 @@ class Point:
         if self == other and self.y == 0 * self.x:
             return self.__class__(None, None, self.a, self.b)
 
+    def __rmul__(self, coefficient):
+        coef = cofficeint
+        current = self 
+        result = self.__class__(None, None, self.a, self.b)
+
+
+        return result
+
 
 # p1 = Point(-1, -1, 5, 7)
 # p2 = Point(-1, 1, 5, 8)
