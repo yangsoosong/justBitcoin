@@ -14,3 +14,6 @@ OpenSSL or oter alternatves for server?
 
 Feb 16th
 Modify the README file to inlcude the setup instruction for the project
+
+Feb 23th
+Might need to consider CI/CD options
